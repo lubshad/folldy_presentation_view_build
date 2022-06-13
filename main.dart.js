@@ -19690,33 +19690,37 @@ a2R:function a2R(){},
 a2S:function a2S(a){this.a=a},
 ns:function ns(a,b){this.a=a
 this.b=b},
-ah8(a){var s,r=null,q="backgroundImage",p="http://143.244.138.169",o="color",n=J.ad(a)
+ah8(a){var s,r=null,q="backgroundImage",p="http://34.70.92.249",o="color",n=J.ad(a)
 switch(B.n2[n.j(a,"type")].a){case 0:return A.akc(new A.A4(a,r),!J.f(n.j(a,"hidden"),!0))
 case 1:if(n.j(a,q)==null)s=r
-else{s=A.En(p+n.j(a,q),r,r,r,B.cC,r,r)
+else{s=n.j(a,q)
+s=A.En(p+s,r,r,r,B.cC,r,r)
 s=A.Vx(B.bu[n.j(a,"fit")],s)}return A.ef(r,new A.d1(new A.ahd(a),r),r,r,new A.dL(new A.k(n.j(a,o)>>>0),s,A.TS(B.t),r,r,r,B.ak),n.j(a,"height"),r,r,n.j(a,"width"))
 case 2:if(n.j(a,q)==null)s=r
-else{s=A.En(p+n.j(a,q),r,r,r,B.cC,r,r)
+else{s=n.j(a,q)
+s=A.En(p+s,r,r,r,B.cC,r,r)
 s=A.Vx(B.bu[n.j(a,"fit")],s)}return A.ef(r,new A.d1(new A.ahe(a),r),r,r,new A.dL(new A.k(n.j(a,o)>>>0),s,A.TS(B.t),r,r,r,B.ak),n.j(a,"height"),r,r,n.j(a,"width"))
 case 3:return A.ef(r,r,r,r,new A.dL(new A.k(n.j(a,o)>>>0),r,r,r,r,r,B.ak),r,r,r,r)
 case 4:return A.ef(r,r,r,r,new A.dL(new A.k(n.j(a,o)>>>0),r,r,r,r,r,B.eQ),r,r,r,r)
 case 5:return A.apX(n.j(a,"svg"))
 case 6:return new A.IZ(a,r)}},
-ahf(a){var s,r,q,p,o,n,m=null,l="backgroundImage",k="http://143.244.138.169",j="color",i="height",h="width",g="child",f=J.ad(a)
+ahf(a){var s,r,q,p,o,n,m=null,l="backgroundImage",k="http://34.70.92.249",j="color",i="height",h="width",g="child",f=J.ad(a)
 switch(B.n2[f.j(a,"type")].a){case 0:return new A.A4(a,m)
 case 1:if(f.j(a,l)==null)s=m
-else{s=A.En(k+f.j(a,l),m,m,m,B.cC,m,m)
+else{s=f.j(a,l)
+s=A.En(k+s,m,m,m,B.cC,m,m)
 s=A.Vx(B.bu[f.j(a,"fit")],s)}return A.ef(m,new A.d1(new A.ahi(a),m),m,m,new A.dL(new A.k(f.j(a,j)>>>0),s,A.TS(B.t),m,m,m,B.ak),f.j(a,i),B.mD,m,f.j(a,h))
 case 2:if(f.j(a,l)==null)s=m
-else{s=A.En(k+f.j(a,l),m,m,m,B.cC,m,m)
+else{s=f.j(a,l)
+s=A.En(k+s,m,m,m,B.cC,m,m)
 s=A.Vx(B.bu[f.j(a,"fit")],s)}return A.ef(m,new A.d1(new A.ahj(a),m),m,m,new A.dL(new A.k(f.j(a,j)>>>0),s,A.TS(B.t),m,m,m,B.ak),f.j(a,i),B.mD,m,f.j(a,h))
 case 3:return A.ef(m,m,m,m,new A.dL(new A.k(f.j(a,j)>>>0),m,m,m,m,m,B.ak),m,m,m,m)
 case 4:return A.ef(m,m,m,m,new A.dL(new A.k(f.j(a,j)>>>0),m,m,m,m,m,B.eQ),m,m,m,m)
 case 5:return A.apX(f.j(a,"svg"))
 case 6:s=J.f(f.j(a,"hidden"),!1)
 r=A.a([],t.F)
-if(f.j(a,"png")!=null)r.push(A.Ud(B.eO,k+f.j(a,"png")))
-if(f.j(a,g)!=null){q=J.ah(f.j(a,g),"top")
+if(f.j(a,"png")!=null){q=f.j(a,"png")
+r.push(A.Ud(B.eO,k+q))}if(f.j(a,g)!=null){q=J.ah(f.j(a,g),"top")
 p=J.ah(f.j(a,g),"left")
 o=J.ah(f.j(a,g),i)
 n=J.ah(f.j(a,g),h)
@@ -64421,7 +64425,7 @@ case 1:return A.L(q,r)}})
 return A.M($async$hS,r)}}
 A.MJ.prototype={}
 A.VE.prototype={
-$0(){return new A.pG(new A.vS(A.aS(t.Gf)),"http://143.244.138.169/folldy_presentation/api/")},
+$0(){return new A.pG(new A.vS(A.aS(t.Gf)),"http://34.70.92.249/folldy_presentation/api/")},
 $S:420}
 A.VF.prototype={
 $0(){$.bq()
@@ -64463,7 +64467,7 @@ if(J.f(j.j(k,"gallery_image"),!0))k=new A.GM(k,m)
 else{s=J.f(j.j(k,"hidden"),!0)
 r=A.a([],t.F)
 if(j.j(k,"png")!=null){q=j.j(k,"png")
-r.push(A.Ud(B.bu[j.j(k,"fit")],"http://143.244.138.169"+q))}if(j.j(k,l)!=null){q=J.ah(j.j(k,l),"top")
+r.push(A.Ud(B.bu[j.j(k,"fit")],"http://34.70.92.249"+q))}if(j.j(k,l)!=null){q=J.ah(j.j(k,l),"top")
 p=J.ah(j.j(k,l),"left")
 o=J.ah(j.j(k,l),"height")
 n=J.ah(j.j(k,l),"width")
@@ -64473,11 +64477,11 @@ A.GM.prototype={
 L(a,b){return new A.rk(new A.Y9(this),new A.Ya(this),null,t.cA)}}
 A.Y9.prototype={
 $2(a,b){var s=this.a.c,r=J.ad(s),q=r.j(s,"png")
-return A.Ud(B.bu[r.j(s,"fit")],"http://143.244.138.169"+q)},
+return A.Ud(B.bu[r.j(s,"fit")],"http://34.70.92.249"+q)},
 $S:424}
 A.Ya.prototype={
 $2(a,b){var s=null,r=this.a.c,q=J.ad(r),p=q.j(r,"png")
-return A.hv(B.ai,A.a([A.Ud(B.bu[q.j(r,"fit")],"http://143.244.138.169"+p),A.kt(s,A.lz(s,B.CO,s,A.asy(A.aAV($.bq()),t.z),s),s,s,s,16,16,s)],t.F),B.kI)},
+return A.hv(B.ai,A.a([A.Ud(B.bu[q.j(r,"fit")],"http://34.70.92.249"+p),A.kt(s,A.lz(s,B.CO,s,A.asy(A.aAV($.bq()),t.z),s),s,s,s,16,16,s)],t.F),B.kI)},
 $S:425}
 A.A4.prototype={
 L(a,b){var s=null,r="fontStyle",q=this.c,p=J.ad(q),o=p.j(q,"decoration"),n=o==null?B.i:A.aDl(o),m=p.j(q,r)==null?B.a0:B.Ej[p.j(q,r)],l=B.mZ[p.j(q,"fontWeight")],k=p.j(q,"text"),j=B.nf[p.j(q,"textAlign")],i=p.j(q,"fontSize")
